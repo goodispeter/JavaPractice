@@ -38,5 +38,14 @@ public class Traingle {
             }
             System.out.println("");
         }
+        System.out.println("----------------------");
+        // 數字正三角形
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j);
+            }
+            System.out.println("");
+        }
+
     }
 }
