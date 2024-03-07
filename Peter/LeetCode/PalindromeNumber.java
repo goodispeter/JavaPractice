@@ -34,7 +34,6 @@ public class PalindromeNumber {
     }
 
     private static boolean isPalindrome(int number) {
-
         String numStr = Integer.toString(number);
         int last = numStr.length() - 1;
         // 將數字反過來儲存成新的String

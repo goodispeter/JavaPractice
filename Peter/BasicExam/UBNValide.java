@@ -7,6 +7,7 @@ public class UBNValide {
     // 邏輯乘數為[1,2,1,2,1,2,4,1]
     // 第7位數不是7的時候: 乘積之和(+)能被5整除就符合
     // 第7位數為7的時候: 成績之和最後第二位數任一位數做相加能被5整除,就符合
+    // 定義乘績之和的常數陣列
     public static final int[] LOGICALMULTIPLIER = { 1, 2, 1, 2, 1, 2, 4, 1 };
 
     public static void main(String[] args) {
