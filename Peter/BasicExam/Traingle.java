@@ -52,7 +52,7 @@ public class Traingle {
         System.out.println("----------------------");
         // 倒等腰三角形
         for (int i = rows * 2 - 1; i > 0; i = i - 2) {
-            for (int j = rows * 2 - 1; j >= i; j = j - 2) {
+            for (int j = rows * 2 - 1; j > i; j = j - 2) {
                 System.out.print(" ");
             }
             for (int k = i; k > 0; k--) {
