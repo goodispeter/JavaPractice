@@ -38,5 +38,28 @@ public class Traingle {
             }
             System.out.println("");
         }
+        System.out.println("----------------------");
+        // 數字等腰三角形
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= rows - i; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= i * 2 - 1; k++) {
+                System.out.print(k);
+            }
+            System.out.println("");
+        }
+        System.out.println("----------------------");
+        // 倒等腰三角形
+        for (int i = rows * 2 - 1; i > 0; i = i - 2) {
+            for (int j = rows * 2 - 1; j >= i; j = j - 2) {
+                System.out.print(" ");
+            }
+            for (int k = i; k > 0; k--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 }
