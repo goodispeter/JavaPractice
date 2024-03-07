@@ -60,6 +60,5 @@ public class Traingle {
             }
             System.out.println();
         }
-
     }
 }
