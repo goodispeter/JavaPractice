@@ -60,5 +60,6 @@ public class Traingle {
             }
             System.out.println();
         }
+        System.out.println("----------------------");
     }
 }
