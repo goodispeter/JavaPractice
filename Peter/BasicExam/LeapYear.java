@@ -19,6 +19,8 @@ public class LeapYear {
                         System.out.println(year + "不是閏年");
                     }
                 }
+            } else {
+                System.out.println("格式輸入錯誤");
             }
         }
     }
