@@ -61,5 +61,17 @@ public class Traingle {
             System.out.println();
         }
         System.out.println("----------------------");
+        // 倒三角形(不貼牆)
+        for (int i = 0; i < rows; i++) {
+            for (int j = rows; j > rows - i; j--) {
+                System.out.print(" ");
+            }
+            for (int k = i; k < rows; k++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+        System.out.println("----------------------");
+
     }
 }

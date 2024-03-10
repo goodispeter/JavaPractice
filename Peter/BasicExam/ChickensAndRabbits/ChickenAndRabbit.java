@@ -13,7 +13,7 @@ public class ChickenAndRabbit {
 
         for (int x = 0; x <= SUM; x++) {
             int y = 35 - x;
-            if ((x * 2) + (y * 4) == 94) {
+            if ((x * 2) + (y * 4) == FOOTS) {
                 rabbits.setRabbitsTotal(x);
                 chickens.setChickenTotal(y);
                 break;
