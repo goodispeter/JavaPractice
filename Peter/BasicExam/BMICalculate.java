@@ -1,6 +1,5 @@
 package Peter.BasicExam;
 
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -9,7 +8,7 @@ public class BMICalculate {
     // BMI公式:體重(公斤)/身高(公尺)的平方
     public static void main(String[] args) {
         Map<String, Double> inputMap = inputToMap();
-        System.out.println("your BMI = " + Math.round(BMICalculate(inputMap) * 100.0) / 100.0);
+        System.out.println("your BMI = " + Math.round(calculate(inputMap) * 100.0) / 100.0);
     }
 
     private static Map<String, Double> inputToMap() {
@@ -39,7 +38,7 @@ public class BMICalculate {
     }
 
     // BMI公式:體重(公斤)/身高(公尺)的平方
-    private static Double BMICalculate(Map<String, Double> inputMap) {
+    private static Double calculate(Map<String, Double> inputMap) {
         if (inputMap != null) {
             return inputMap.get("Weight") /
                     (Math.pow(inputMap.get("Height") / 100, 2));
