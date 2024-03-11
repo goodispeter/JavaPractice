@@ -1,0 +1,4 @@
+  public void addKwh(double kwh) {
+        this.kwh += kwh;
+        bill = this.kwh * this.rate;
+    }

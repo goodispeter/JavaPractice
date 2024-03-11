@@ -1,0 +1,6 @@
+Answer A
+A. Encapsulation 封裝
+B. Inheritance 繼承
+C. Abstraction 抽象
+D. Instantiation 實例化
+E. Polymorphism 多形

@@ -1,0 +1,4 @@
+Answer :B switch case不一定要有break,只是沒有的話會繼續往下執行
+A. 不一定要有default,如果沒有符合的case可以執行 程式會跳出switch結構 繼續執行switch以外的程式碼
+C. 執行時無法更改 是固定的
+D. 是單一(Single)值 不是一組(Collection)值

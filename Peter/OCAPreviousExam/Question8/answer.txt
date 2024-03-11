@@ -1,0 +1,5 @@
+Answer:
+Compiliation fails at line n1
+Compiliation fails at line n2
+
+private修飾子 只能被同一個類訪問

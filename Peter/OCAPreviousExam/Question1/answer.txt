@@ -1,0 +1,9 @@
+印出 400.0 : 100 .0
+
+解析:
+updatePrice方法接受兩個參數：一個是 Product 的物件實例，另一個是 double 型態的價格
+在 main 方法中，prt 是一個 Product 物件的實例，其價格被賦值為 200，而 newPrice 變數被賦值為 100
+當 updatePrice 方法被呼叫時，它將傳入的 price 參數乘以 2，並將結果加到傳入的 Product 物件的價格屬性上
+Java中的參數傳遞是按值傳遞的，對於基本型別的參數，傳遞的是值的副本，而對於物件參數，傳遞的是物件的引用的副本
+updatePrice 方法中， price 變數的修改並不會影響到 newPrice 變數的值
+對 product.price 的修改會影響到 prt 引用的物件的價格屬性，因為它們指向同一個物件

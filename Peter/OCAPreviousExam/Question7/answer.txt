@@ -1,0 +1,5 @@
+Answer:
+4W 100 Auto
+4W 150 Manul
+
+super關鍵字: 用了父類 Vehical 的帶參數建構函式，同時初始化了 trans 屬性。

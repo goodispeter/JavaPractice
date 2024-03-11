@@ -1,0 +1,2 @@
+C. Compliation fails at line n2
+將Integer轉為String要用String.valueOf();

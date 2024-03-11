@@ -1,0 +1,14 @@
+C. Make the method at line n3 public.
+D. Make the method at line n3 protected.
+
+public修飾子: 可以從任何地方訪問
+protected修飾子: 可在同一包或其子類中可見,即使該子類不在同一個包中也可以
+沒有宣告: 只能在同一個包中被訪問
+private: 只能在同一個類中被訪問
+抽樣類 Planet Planet子類Earth
+Planet有一個Protected方法 revlole()和一個抽象方法rotate()
+Earth中試圖覆寫revloce()和實現rotate()
+覆寫revolve()方法時我們使用void revolve(),是錯誤的,必須要用跟protected同級或更高的可訪問性
+所以必須要用protected或是public
+實現抽象方法rotate()時 使用protected void rotate()是正確的
+因為保持了相同或更高的訪問性
