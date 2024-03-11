@@ -1,0 +1,5 @@
+考要怎麼import包 沒什麼好說的
+
+答案為 
+import sales.*
+import sales.products.*

@@ -1,0 +1,9 @@
+Answer:
+B. acct.amount = 0; 
+C. acct.setAmount(0);
+G. acct.changeAmount(-acct.amount);
+
+A. acct.setAmount(-acct.getAmount()); 會直接將amount設置為負數
+D. acct.getAmount()= 0; 沒有這種寫法
+E. this.amount = 0; 根本就不再同一個類
+F. acct.changeAmount(0); amount += 0; 還是amount

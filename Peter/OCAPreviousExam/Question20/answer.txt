@@ -1,0 +1,2 @@
+B. At line 7 ,insert x--;
+考while迴圈 每一次調用方法都不會改變主類別的x值

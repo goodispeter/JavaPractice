@@ -1,0 +1,8 @@
+C. Compilation fails only at line n2.
+
+丟出Exception(受檢異常)後 呼叫該方法需要進行異常處理 
+丟出RuntimeException(不受檢異常),可以選擇性地進行異常處理
+
+*** 受檢異常是 java.lang.Exception或其子類別(但不包括RuntimeException及其子類別)得實例
+*** 不受檢異常 是指在運行時可能發生的錯誤，通常是由於程式邏輯錯誤或系統錯誤所引起
+例如 空指標(NullPointerException)或是(ClassCastException)

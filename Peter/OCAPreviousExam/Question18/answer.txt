@@ -1,0 +1,9 @@
+Answer: C
+
+for (String[] c : shirts) {
+        for (String s : c) {
+            System.out.print(s + ":");
+        }
+    }
+
+考迴圈 沒啥好說的
