@@ -1,0 +1,15 @@
+D. At line n4 insert:
+public void setBookMark
+
+A.Replace the code fragment at line n1 With:
+class Book implenents Readable 
+將abstract移除的話,這個類別就必須提供Readable介面中所有的方法具體實作
+
+B.At line n2 insert
+public abstract void setBookMark();
+這不必要 因為setBookMark()方法已經在Readable介面被聲明了，無法解決編譯錯誤
+
+C.Replae the code fragment at line n3 with:
+abstract class Ebook extends Book{}
+主方法中在創建EBook的實例,abstract類別無法實做
+所以選D 實做介面時必須覆寫介面中的所有方法

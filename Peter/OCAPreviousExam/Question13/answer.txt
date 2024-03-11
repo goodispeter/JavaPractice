@@ -1,0 +1,5 @@
+C. super(r);
+   this.c = c;
+
+DVD類別繼承自CD類別,在DVD類別的constructor中,需要調用父類別CD來初始化r屬性
+因此需要使用super關鍵字來調用父類別的建構函式

@@ -1,0 +1,4 @@
+concat() 將兩字串組合
+replace() 用newChar將所有oldChar替換掉
+
+不過題目中ta.raplace('C'','D')沒有重新賦值給ta,是行垃圾程式
