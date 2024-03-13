@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Rong/BasicExam/|KennySyu/BasicExam/|Rong/" kind="src" path=""/>
+	<classpathentry kind="src" path="KennySyu/BasicExam"/>
+	<classpathentry excluding="BasicExam/" kind="src" path="Rong"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,3 +1,5 @@
+package BasicExams;
+
 import java.util.Scanner;
 
 public class Ratiosize {
