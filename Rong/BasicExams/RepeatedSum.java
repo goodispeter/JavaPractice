@@ -1,3 +1,5 @@
+package BasicExams;
+
 
 public class RepeatedSum {
 
