@@ -1,0 +1,9 @@
+建構子裡面賦值:
+this.name = new String("Joe");
+this.contract = new Boolean(true);
+this.salary = new Double(100);
+
+實例化後再賦值
+e.name = "Joe";
+e.contract = true;
+e.salary = 100'

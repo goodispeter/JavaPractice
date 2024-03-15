@@ -1,0 +1,4 @@
+[Robb, Rick, Bran]
+
+ArrayList的Remove方法會返回布林值 如果列表裡有該元素返回true 沒有返回false
+然後會從列表中出現的第一個元素開始刪,只會刪第一筆

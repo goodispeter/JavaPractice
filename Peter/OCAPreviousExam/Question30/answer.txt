@@ -1,0 +1,11 @@
+A Work done
+
+迴圈執行到最後就break跳出了 沒啥好說
+但假如
+  if (arr[i].equals("C")) {
+                continue;
+            }
+改成arr[i].equals("A")
+當遍歷到A元素時 迴圈會直接跳回去開頭 所以不會執行到Work Done跟break;
+所以會執行兩次 第二次遍歷到B時才會執行到break
+會印出 A B WorkDone

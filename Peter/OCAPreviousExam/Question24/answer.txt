@@ -1,0 +1,5 @@
+String s3 = (String) (s1 + s2);
+
+這段不合法 
+正確寫法應該是
+String.valueOf(s1+s2);

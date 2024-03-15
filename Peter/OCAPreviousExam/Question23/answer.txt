@@ -1,0 +1,25 @@
+ int d = (a < b) ? (a < c) ? a : (b < c) ? b : c : x;
+
+a < b 為true 時 執行 a < c 的判斷
+a < c 為true 時 d = a 為false時 執行 b < c 的判斷
+b < c 為true 時 d = b 為fasle時 d = c
+以上條件都不成立時 d = x;
+
+int x = 100; 
+int a = x++;  判斷完在+1 
+int b = ++x;  先+1在判斷
+int c = x++;  判斷完在+1
+
+if(100<101){
+    if(100<100){
+        d=100;
+    }else{
+        if(101<100){
+            d=101
+        }else{
+            d=100;
+        }
+    }
+}else{
+    d=100;
+}

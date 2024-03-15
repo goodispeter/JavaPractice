@@ -1,0 +1,4 @@
+將booelan opt = true; 改成 String opt = "ture"
+然後 case true 改成 "true"
+
+Switch裡面只能放byte short char int 及這幾個數據類型的包裝類別!!
