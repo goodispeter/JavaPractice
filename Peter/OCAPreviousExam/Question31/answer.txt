@@ -1,0 +1,15 @@
+Which three are advantages if the Java exception machanism?(Choose three.)
+A. Improves the program structure because the error handling code is seprated from the normal program funcion.
+B. Provides a set of standard exceptions that covers all possible errors
+C. Improves the program structure because the programmer can choose where to handle exceptions
+D. Improves the program structure because exceptions must be handled in the method in which they occurred
+E. Allows the creation of new exceptions that are customized to the particular program begin created
+
+
+Java異常機制有哪三個優點?
+
+A. 改善程式結構，因為錯誤處理程式碼與正常程式功能分開。
+B. 提供一組標準異常，涵蓋所有可能的錯誤。 -- 這樣會不知道錯在哪裡，更難Dbug
+C. 改善程式結構，因為程式設計師可以選擇在哪裡處理異常。
+D. 改善程式結構，因為異常必須在發生它們的方法中處理。 -- 可以拋出異常,讓調用此方法的人處理異常
+E. 允許創建新的異常，以符合特定的程式需求。

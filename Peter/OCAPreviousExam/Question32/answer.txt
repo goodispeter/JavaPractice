@@ -1,0 +1,5 @@
+javac Greeting.java 
+java Greeting Duke
+
+用javac + Greeting.java編譯成字節碼(Greeting.class)
+然後用 java + Greeting + Duke(參數)執型 Greeting.class檔

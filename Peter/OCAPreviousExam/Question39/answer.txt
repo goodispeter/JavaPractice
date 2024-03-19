@@ -1,0 +1,5 @@
+Success
+
+java Question39 Hello  傳了一個參數給main方法
+然後用String裡用預設的equals比較沒有記憶體位置的問題,單純比值
+如果一樣就返回true 不一樣就返回flase

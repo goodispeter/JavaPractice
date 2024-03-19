@@ -1,0 +1,6 @@
+Which three are advantages if the Java exception machanism?(Choose three.)
+A. Improves the program  structure because the error handling code is seprated from the normal program funcion.
+B. Provides a set of standard exceptions that covers all possible errors
+C. Improves the program structure because the programmer can choose where to handle exceptions
+D. Improves the program structure because exceptions must be handled in the method in which they occurred
+E. Allows the creation of new exceptions that are customized to the particular program begin created

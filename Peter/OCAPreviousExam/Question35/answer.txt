@@ -1,0 +1,6 @@
+An exception is thrown at runtime.
+
+應該是LocaleDate.of(2014,6,20) 年,月,日排序
+date1 使用 LocaleDate.now()創建 會自動獲取當前系統日期
+date2 使用 LocaleDate.of(yyyy-mm-dd) 直接指定日期
+date3 使用 LocalDate.parse("yyyy-mm-dd", DateTimeFormatter.ISO_DATE)創建,解析ISO日期格式得字符串

@@ -1,0 +1,4 @@
+false true
+
+送分題 不太確定要考啥
+可以說的大概就是 static 方法使用static方法跟static變數根本不需要new 但也跟題目要考的沒關係就是了

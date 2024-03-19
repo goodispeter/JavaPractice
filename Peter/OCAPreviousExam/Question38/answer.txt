@@ -1,0 +1,8 @@
+A. if(qty > =90){ discount = 0.5; }
+C. discount = ( qty >= 90 ) ? 0.5 : (qty > 80) ? 0.2 : 0;
+
+滿無聊的 考if跟三元運算子
+簡單講一下C選項
+如果 qty > = 90 true的話discount = 0.5 
+沒有滿足條件的話判斷 qty > 80 true的話discount = 0.2 
+沒有滿足的話 discount = 0
