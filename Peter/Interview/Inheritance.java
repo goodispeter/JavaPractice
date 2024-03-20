@@ -44,6 +44,7 @@ class ChildChild3 extends Child2 {
 public class Inheritance {
     public static void main(String[] args) {
         Parent parent = new Child2();
+        parent.print();
 
     }
 }
