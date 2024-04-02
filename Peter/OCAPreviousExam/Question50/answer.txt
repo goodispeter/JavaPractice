@@ -1,0 +1,4 @@
+if(str2.equals(str1.toLowerCase()))
+
+考 equals 跟 == 的差別
+以及 String 類是不可變的類

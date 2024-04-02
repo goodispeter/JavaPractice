@@ -1,0 +1,21 @@
+B. return x + creditCard.substring(15,19);
+
+C. StringBuilder sb = new StringBuilder(x);
+   sb.append(creditCard , 15 ,19);
+   return sb.toString();
+
+這題考得重點:
+String 類是一個不可變得類 , 意味著一旦創建 String 對象，他的值就不能被修改。
+但 StringBuilder 和 StringBuffer 這兩個類是可變的，可以修改其內部的字符序列，因此可以用構建常字串
+
+首先 , A 選項直接排除
+StringBuilder sb = new StringBuilder(creditCard);
+sb.substring(15,19); 
+return x + sb;
+因為 sb.substring(15,19); 返回得是子字符串，不會修改原始字串
+除非直接 return x + sb.substring(15,19); 這段程式碼才會是可選答案(同 B 選項)
+
+C 選項，sb.append(creditCard ,15 ,19) 將creditCard字串15-19的元素直接添加到sb字串的後面
+會直接修改原始字串
+
+D 選項，sb.insert(0,x); 嘗試在開頭插入 x , 但是沒有對creditCard做任何修改 , 也沒有任何跡象只顯示最後四位數字 

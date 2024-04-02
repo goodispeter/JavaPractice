@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.OutOfMemoryError
+
+C. A runtime error in thrown in the thread "main"
+在主線程中拋出了運行時錯誤
+
+OutOfMemoryError 是 Error 的一個子類，不是RuntimeException 或 Exception 的子類
+
+儘管在catch區塊中捕獲RuntimeException 和 Exception 但都不會被執行
+並且Ready to use 不會被打印，因為拋出 OutOfMemoryError 後，程序會立即中止

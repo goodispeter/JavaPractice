@@ -1,0 +1,3 @@
+false false
+
+String 類是不可變的 str.trim()執行後沒有重新賦值給str 相當於是個垃圾程式

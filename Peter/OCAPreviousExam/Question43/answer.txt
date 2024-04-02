@@ -1,0 +1,30 @@
+Which statement is true?
+
+A. Both p and s are accessible via obj.
+B. Only s is accessible via obj.
+C. Both r and s are accessible via obj.
+D. p,r and s are accessible via obj.
+
+A. 通過 obj 可以訪問 p 和 s。
+B. 通過 obj 只能訪問 s。
+C. 通過 obj 可以訪問 r 和 s。
+D. 通過 obj 可以訪問 p、r 和 s。
+
+考的是封裝的修飾子
+分為四種
+public : 所以類都能訪問
+protected : 同包內的類及其子類可以訪問
+default(沒有指定修飾子的情況) : 同一個包內的類可以訪問
+private : 只有同個類可以訪問
+
+特別要注意的點!!!!!
+在不同包中,可以使用protected修飾子來訪問其父類的成員，
+但有一個重要的例外，像是這題，
+子類(Test)實例是通過在其他包中創建的父類(Acc)對象來創建的，
+則子類不能訪問父類的 protected 成員。
+
+這個規則是為了確保在子類繼承的情況下不會破壞封裝性，
+因為如果允許從不同包中的子類訪問父類的 protected 成員，
+就可以通過創建一個父類對象來繞過封裝性，會導致不安全的訪問。
+
+故答案選 B 

@@ -1,0 +1,9 @@
+checkAge(iList, p -> p.getAge()>40);
+
+相當於
+checkAge(iList, new Predicate<Person>(){
+    @Override
+    public boolean test(Person p){
+        return p.getAge()>40;
+    }
+});
